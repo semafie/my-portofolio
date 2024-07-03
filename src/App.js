@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './index.css';
 import React from 'react';
+import 'boxicons/css/boxicons.min.css';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
@@ -11,8 +12,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     
-    <div className="bg-black m-0 min-h-screen">
-
+    <div className="bg-[#031309] m-0 min-h-screen">
+      
+      
       <Header />
       <HeroSection />
       <Skills />

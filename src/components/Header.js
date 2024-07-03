@@ -2,17 +2,12 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="m-0 p-6 flex justify-between items-center">
-      <div className="text-white text-lg">Semafie</div>
-      <nav>
-        <ul className="flex space-x-4">
-          <li className="text-white">About me</li>
-          <li className="text-white">Project</li>
-          <li className="text-white">Skills</li>
-          <li className="text-white">Social Media</li>
-        </ul>
-      </nav>
-    </header>
+    <div className="h-20 flex text-sm text-white  justify-center  items-center">
+            <a href="#" className="mx-2">About me</a>
+            <a href="#" className="mx-2">Project</a>
+            <a href="#" className="mx-2">Skills</a>
+            <a href="#" className="mx-2">Social Media</a>
+    </div>
   );
 };
 

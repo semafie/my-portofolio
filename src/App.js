@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     
-    <div className="bg-[#031309] m-0 min-h-screen">
+    <div className="bg-[#010A04] m-0 min-h-screen">
       
       
       <Header />
